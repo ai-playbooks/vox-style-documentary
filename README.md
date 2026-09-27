@@ -1,4 +1,4 @@
-# VOX-Style Documentary Collage Video Workflow (v2)
+# VOX-Style Documentary Collage Video Workflow (v2, VideoExpress 3.5)
 
 Automated production of VOX-style documentary paper-collage animation videos using two browser tools (v2: Artistly removed — images are generated inside VideoExpress):
 
@@ -7,7 +7,7 @@ Automated production of VOX-style documentary paper-collage animation videos usi
 | **CloneVoice** (`app.clonevoice.ai`) | Narration audio (text-to-speech, "Tyler Brooks" voice by default) |
 | **VideoExpress** (`app.videoexpress.ai`) | Per-beat image generation ("Create Image" in the Create Video From Prompt modal), image-to-video clips, timeline assembly, export |
 
-The full machine-readable contract — every URL, DOM selector, API endpoint, checkbox value, corner case, and the resume protocol — lives in **`vox_workflow.json`** (v3.3.1, also embedded inside `SYSTEM_PROMPT.md`). This README is the human overview.
+The full machine-readable contract — every URL, DOM selector, API endpoint, checkbox value, corner case, and the resume protocol — lives in **`vox_workflow.json`** (v3.5.1, also embedded inside `SYSTEM_PROMPT.md`). This README is the human overview.
 
 ## ⚠️ IMPORTANT — Supported AI models (runners)
 
@@ -64,14 +64,14 @@ Phase 2  Script and beats     - (generate branch only) narration script (minutes
 Phase 3  Narration            - CloneVoice Create Audio -> Tyler Brooks voice -> Create New Audio
                                 -> Preview Segments (DRAFT!) -> click "Generate Audio" -> Completed
 Prompt book + gate           - full storyboard authored per shot (title, TIME window, voiceover cue,
-                                text-to-image prompt with exact labels, timestamped image-to-video
-                                prompt) and self-checked against the prompt_gate checklist BEFORE
+                                text-to-image prompt with exact labels, beat map, descriptive keyframe
+                                anchors, and timed 2-3 camera-shot image-to-video prompt) and self-checked against the prompt_gate checklist BEFORE
                                 any generation (internal gate - never pauses the run)
 Phase 5  Images               - in the SAME VideoExpress modal (TAB A, configured once; TAB B
-                                monitors): image prompt -> image type 'other' -> uncheck
+                                monitors): image prompt -> image type 'other' -> check Use Creative mode -> uncheck
                                 auto-enhance -> Create Image; FAST-QC: accept the first take,
                                 retake max 1 only on an obvious error
-Phase 7  Clips                - same modal, right after each image: that shot's timestamped
+Phase 7  Clips                - same modal, right after each image: that beat's continuity-locked multi-shot
                                 image-to-video prompt, rolling 5-slot batching (submit 5, check
                                 My AI Videos in TAB B, backfill freed slots), acceptance verified
                                 by data.mediaId, both enhancers OFF, Video Only ON
@@ -80,6 +80,8 @@ Phase 8  Assembly             - clips dragged sequentially (reverse-drop for cor
 Phase 9  Save + Export        - save (verify via document.title), export High/FullHD/mp4,
                                 done ONLY at "Your movie creation is currently number N in the queue"
 ```
+
+Beat mapping assigns each exact narration slice to one image and one generated clip. Inside each clip, VideoExpress 3.5 prompts direct 2-3 connected camera shots. Opening, cut, and final-frame anchors are descriptive prompt keyframes; the workflow does not place manual editor keyframes.
 
 ## Duration math (the sync contract)
 

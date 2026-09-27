@@ -1,304 +1,1102 @@
 {
-  "run": "db-cooper-1971",
-  "started_at": "2026-08-20",
-  "current_phase": "phase_9_save_export",
-  "current_step": "DONE - export queued",
-  "next_safe_action": "none - run complete; movie renders in background (My Videos)",
-  "inputs": {
-    "script_source": "generate",
-    "niche": "crime and documentary",
-    "idea": "D.B. Cooper 1971",
-    "ratio": "Landscape 16:9",
-    "minutes": 1
-  },
-  "auth": {
-    "CloneVoice": {
-      "authenticated": true,
-      "evidence": "title 'Audio - Clone Voice', My Audio list rendered",
-      "checked_at": "2026-08-20"
-    },
-    "VideoExpress": {
-      "authenticated": true,
-      "evidence": "canvas present, 'Export Video' in body, Testadmin All Access",
-      "checked_at": "2026-08-20"
-    }
-  },
-  "narration": {
-    "title": "D.B. Cooper 1971 - The Vanishing",
-    "uuid": "01a01b59-3f0a-70eb-bd5a-a372aaaf185f",
-    "status": "Completed",
-    "voice": "Tyler Brooks",
-    "words": 150,
-    "src": "https://cdn.clonevoice.ai/uploads/production/2026/08/19/user-8916/audios/db-cooper-1971-t-52a70f16-u-01a01b59-3f0a-70eb-bd5a-a372aaaf185f.mp3",
-    "measured_duration_s": 68.093061
-  },
-  "beats": {
-    "N": 12,
-    "planned_clip_s": 6,
-    "planned_total_s": 72,
-    "prompt_gate": {
-      "status": "pass",
-      "shots": 12,
-      "checked_at": "2026-08-20"
-    },
-    "book_file": "E:/claude/prompt_book_db_cooper.json",
-    "shots": [
-      {
-        "shot": 1,
-        "title": "The Afternoon",
-        "time": "0:00-0:06",
-        "cue": "On the afternoon of November 24th, 1971, a quiet man in a dark suit"
-      },
-      {
-        "shot": 2,
-        "title": "One Way, Portland",
-        "time": "0:06-0:12",
-        "cue": "bought a one-way ticket at Portland International Airport. He gave his name as Dan Cooper."
-      },
-      {
-        "shot": 3,
-        "title": "The Note",
-        "time": "0:12-0:18",
-        "cue": "Shortly after takeoff, he handed a flight attendant a note. It said he had a bomb."
-      },
-      {
-        "shot": 4,
-        "title": "The Demand",
-        "time": "0:18-0:24",
-        "cue": "He asked for two hundred thousand dollars in twenty-dollar bills, and four parachutes."
-      },
-      {
-        "shot": 5,
-        "title": "Seattle",
-        "time": "0:24-0:30",
-        "cue": "In Seattle, the money arrived. The passengers walked free."
-      },
-      {
-        "shot": 6,
-        "title": "The Low Turn",
-        "time": "0:30-0:36",
-        "cue": "The Boeing 727 took off again, flying low toward Mexico City."
-      },
-      {
-        "shot": 7,
-        "title": "Dark Forests",
-        "time": "0:36-0:42",
-        "cue": "Somewhere over the dark forests of southwest Washington,"
-      },
-      {
-        "shot": 8,
-        "title": "The Airstair",
-        "time": "0:42-0:48",
-        "cue": "the rear staircase came down, and the man stepped out into freezing rain."
-      },
-      {
-        "shot": 9,
-        "title": "Nothing",
-        "time": "0:48-0:54",
-        "cue": "No body was ever found. No parachute. No suspect."
-      },
-      {
-        "shot": 10,
-        "title": "The File",
-        "time": "0:54-1:00",
-        "cue": "The FBI opened one of the longest investigations in its history. Eight years later,"
-      },
-      {
-        "shot": 11,
-        "title": "The Riverbank",
-        "time": "1:00-1:06",
-        "cue": "a boy digging on the bank of the Columbia River uncovered a bundle"
-      },
-      {
-        "shot": 12,
-        "title": "The Serial Numbers",
-        "time": "1:06-1:12",
-        "cue": "of rotting twenty-dollar bills. The serial numbers matched. And that is where the trail ends."
-      }
-    ]
-  },
-  "images": {
-    "1": "e6d5429a",
-    "2": "051ba700",
-    "3": "d8a0a0ee",
-    "4": "fa01b5c5",
-    "5": "f1d984cb",
-    "6": "113b262e",
-    "7": "bbfb7b70",
-    "8": "7eb5c32a",
-    "9": "fb3159e0",
-    "10": "7f78dc2e",
-    "11": "f27e168e",
-    "12": "7706c361"
-  },
-  "clips": {
-    "1": {
-      "job": 38543394,
-      "img": "e6d5429a",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "2": {
-      "job": 38543491,
-      "img": "051ba700",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "3": {
-      "job": 38543552,
-      "img": "d8a0a0ee",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "4": {
-      "job": 38543596,
-      "img": "fa01b5c5",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "5": {
-      "job": 38543632,
-      "img": "f1d984cb",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "6": {
-      "job": 38543710,
-      "img": "113b262e",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "7": {
-      "job": 38543758,
-      "img": "bbfb7b70",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "8": {
-      "job": 38543826,
-      "img": "7eb5c32a",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "9": {
-      "job": 38543914,
-      "img": "fb3159e0",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "10": {
-      "job": 38543986,
-      "img": "7f78dc2e",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "11": {
-      "job": 38544054,
-      "img": "f27e168e",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    },
-    "12": {
-      "job": 38544128,
-      "img": "7706c361",
-      "aspect": "16:9",
-      "videoOnly": true,
-      "enhance": false,
-      "duration_s": 6,
-      "verified": "get_media_prompt_data.data.imageUuid matches"
-    }
-  },
-  "error_history": [
-    {
-      "step": "prompt_gate",
-      "symptom": "gate flagged hot red 2x on all 12 shots",
-      "root_cause": "checker counted the palette-law mention, which is mandatory boilerplate",
-      "recovery": "scoped the count to the scene section only",
-      "outcome": "gate passed, prompts unchanged"
-    },
-    {
-      "step": "phase_5 modal ratio",
-      "symptom": "modal ratio button defaulted to Vertical 9:16 while canvas was Landscape",
-      "root_cause": "known per-account CVFP modal default",
-      "recovery": "clicked modal Landscape button and asserted class active before every Create Image / Create Video",
-      "outcome": "all beats generated at 16:9 (confirmed via get_media_prompt_data aspect)"
-    },
-    {
-      "step": "beat 11 uuid capture",
-      "symptom": "active-image heuristic returned beat 1 uuid after the modal scrolled",
-      "root_cause": "largest-visible-image heuristic picked a hover overlay",
-      "recovery": "read the uuid from the ai/api/generate_image response instead; acceptance check confirmed job 38544054 maps to f27e168e",
-      "outcome": "correct mapping, no resubmit needed"
-    },
-    {
-      "step": "phase_9 export",
-      "symptom": "no queue text and no network record right after the jQuery Create click",
-      "root_cause": "progress dialog had opened behind the reopened Media Library panel; the request had in fact been submitted",
-      "recovery": "reconciled by reopening Export Video instead of resubmitting; found the running Progress 0/1 dialog and polled it",
-      "outcome": "queue confirmed, no duplicate export"
-    }
-  ],
-  "folders": {
-    "my_ai_images": 610484,
-    "my_ai_videos": 610483,
-    "my_clonevoice.ai_audio": 610652
-  },
-  "qc_exceptions": [
-    {
-      "beat": 3,
-      "note": "small garbled stray text (VOX 16 21 82) on the mustard seat-row card; reads as archival ticket numbering, kept rather than spending a retake"
-    }
-  ],
-  "assembly": {
-    "video_bricks": 12,
-    "order": "1..12 verified via fileName->job->beat",
-    "narration_track": "row 1 (bottom), left 0, id 38544461, 68127ms",
-    "auto_align": "both tracks",
-    "endpoint": "video_end==narration_end==2725px, diff 0px",
-    "max_beat_drift_s": 4,
-    "tolerance_s": 6
-  },
   "save": {
-    "proof": "document.title == 'Video Express - D.B. Cooper 1971 - The Vanishing'"
+    "confirmed_via_title": true,
+    "project_name": "Lake Peigneur — The Lake That Vanished | Vox Documentary"
+  },
+  "error_history": [],
+  "narration": {
+    "src_url": "https://cdn.clonevoice.ai/uploads/production/2026/09/26/user-8916/audios/lake-peigneur-the-cdadce69-u-01a0ddf6-b83a-7115-bd1e-2bdfa09ee78a.mp3",
+    "title": "Lake Peigneur — The Lake That Vanished",
+    "voice": "Tyler Brooks",
+    "status": "Completed",
+    "uuid": "01a0ddf6-b83a-7115-bd1e-2bdfa09ee78a",
+    "generate_audio_clicked": true,
+    "duration_s": 141.41
+  },
+  "current_phase": "complete",
+  "timeline": {
+    "audio_end_px": 707,
+    "video_end_px": 707,
+    "order_verified": true,
+    "audio_duration_ms": 141410,
+    "endpoint_diff_px": 0,
+    "audio_ve_id": 42406857,
+    "clips_placed": [
+      {
+        "beat": 24,
+        "media_id": 42406457
+      },
+      {
+        "beat": 23,
+        "media_id": 42406393
+      },
+      {
+        "beat": 22,
+        "media_id": 42406321
+      },
+      {
+        "beat": 21,
+        "media_id": 42406253
+      },
+      {
+        "beat": 20,
+        "media_id": 42406149
+      },
+      {
+        "beat": 19,
+        "media_id": 42406117
+      },
+      {
+        "beat": 18,
+        "media_id": 42406027
+      },
+      {
+        "beat": 17,
+        "media_id": 42405957
+      },
+      {
+        "beat": 16,
+        "media_id": 42405865
+      },
+      {
+        "beat": 15,
+        "media_id": 42405810
+      },
+      {
+        "beat": 14,
+        "media_id": 42405493
+      },
+      {
+        "beat": 13,
+        "media_id": 42405410
+      },
+      {
+        "beat": 12,
+        "media_id": 42405299
+      },
+      {
+        "beat": 11,
+        "media_id": 42405222
+      },
+      {
+        "beat": 10,
+        "media_id": 42405125
+      },
+      {
+        "beat": 9,
+        "media_id": 42405047
+      },
+      {
+        "beat": 8,
+        "media_id": 42404969
+      },
+      {
+        "beat": 7,
+        "media_id": 42404927
+      },
+      {
+        "beat": 6,
+        "media_id": 42404885
+      },
+      {
+        "beat": 5,
+        "media_id": 42404829
+      },
+      {
+        "beat": 4,
+        "media_id": 42404677
+      },
+      {
+        "beat": 3,
+        "media_id": 42404599
+      },
+      {
+        "beat": 2,
+        "media_id": 42404448
+      },
+      {
+        "beat": 1,
+        "media_id": 42404108
+      }
+    ],
+    "audio_placed": true,
+    "trimmed_tail_px": 18
+  },
+  "run_id": "lake-peigneur-1980-20260926",
+  "workflow_version": "3.5.1",
+  "clips": {
+    "job_to_beat_by_mediaId": {
+      "c6e9cc2f-4817-49c4-88cc-2b1280c3b609": 1,
+      "9d92011c-bc0f-4e6b-9d78-268b197bc0ab": 2,
+      "25250e0a-5076-43be-aec4-950eaa8afb6f": 3,
+      "5ff70417-83da-4111-a2b7-1c4035458c11": 4,
+      "1794429d-7d65-48be-88e8-a1e2e7c7554c": 5,
+      "39a6599a-9f68-4438-af4d-e34fa9dd6aac": 6,
+      "94193914-fba8-493d-b743-0e31aaf84813": 7,
+      "b6817a73-61b8-462c-b5f7-f671d481b5d1": 8,
+      "20a85145-1387-4c7b-b582-d45a83c93c24": 9,
+      "e02e132d-331b-468a-a6f9-d3dd63ec6a4f": 10,
+      "05af66d8-0635-46a4-9c3a-3cda4c5ca172": 11,
+      "2805e4b8-4ede-4e0a-a531-36441c06dfe6": 12,
+      "c4eb8add-5132-4180-9975-0e393177dd49": 13,
+      "737c9d15-5e8e-4ab6-abcc-532489c3607e": 14,
+      "0240e9bf-15f5-4cdf-a2e5-553649833931": 15,
+      "1fdd2ed6-4e74-4241-99c5-49dbc0407c74": 16,
+      "07322b0c-a578-4d5f-beb4-8a8435bbc985": 17,
+      "f14c30a1-3723-4f22-9271-0fefba743fff": 18,
+      "12c12820-a25e-41da-9706-f4f1258ac918": 19,
+      "88a7db34-f25d-413d-a766-2dee291f6525": 20,
+      "2c8e5a9d-8e8a-4bfc-9fa7-2371064e952b": 21,
+      "6a834aaf-582a-4a8e-aef8-b7d2855dec24": 22,
+      "4eaadacb-82b9-4372-b3f5-87af77fd5bbc": 23,
+      "b09e45b4-7d13-4e14-b4b9-7be3f82d0a00": 24
+    },
+    "batches": [
+      {
+        "beat": 1,
+        "status": "submitted",
+        "job_uuid": "c6e9cc2f-4817-49c4-88cc-2b1280c3b609",
+        "duration_s": 6
+      },
+      {
+        "beat": 2,
+        "status": "submitted",
+        "job_uuid": "9d92011c-bc0f-4e6b-9d78-268b197bc0ab",
+        "duration_s": 6
+      },
+      {
+        "beat": 3,
+        "status": "submitted",
+        "job_uuid": "25250e0a-5076-43be-aec4-950eaa8afb6f",
+        "duration_s": 6
+      },
+      {
+        "beat": 4,
+        "status": "submitted",
+        "job_uuid": "5ff70417-83da-4111-a2b7-1c4035458c11",
+        "duration_s": 6
+      },
+      {
+        "beat": 5,
+        "status": "submitted",
+        "job_uuid": "1794429d-7d65-48be-88e8-a1e2e7c7554c",
+        "duration_s": 6
+      },
+      {
+        "beat": 6,
+        "status": "submitted",
+        "job_uuid": "39a6599a-9f68-4438-af4d-e34fa9dd6aac",
+        "duration_s": 6
+      },
+      {
+        "beat": 7,
+        "status": "submitted",
+        "job_uuid": "94193914-fba8-493d-b743-0e31aaf84813",
+        "duration_s": 6
+      },
+      {
+        "beat": 8,
+        "status": "submitted",
+        "job_uuid": "b6817a73-61b8-462c-b5f7-f671d481b5d1",
+        "duration_s": 6
+      },
+      {
+        "beat": 9,
+        "status": "submitted",
+        "job_uuid": "20a85145-1387-4c7b-b582-d45a83c93c24",
+        "duration_s": 6
+      },
+      {
+        "beat": 10,
+        "status": "submitted",
+        "job_uuid": "e02e132d-331b-468a-a6f9-d3dd63ec6a4f",
+        "duration_s": 6
+      },
+      {
+        "beat": 11,
+        "status": "submitted",
+        "job_uuid": "05af66d8-0635-46a4-9c3a-3cda4c5ca172",
+        "duration_s": 6
+      },
+      {
+        "beat": 12,
+        "status": "submitted",
+        "job_uuid": "2805e4b8-4ede-4e0a-a531-36441c06dfe6",
+        "duration_s": 6
+      },
+      {
+        "beat": 13,
+        "status": "submitted",
+        "job_uuid": "c4eb8add-5132-4180-9975-0e393177dd49",
+        "duration_s": 6
+      },
+      {
+        "beat": 14,
+        "status": "submitted",
+        "job_uuid": "737c9d15-5e8e-4ab6-abcc-532489c3607e",
+        "duration_s": 6
+      },
+      {
+        "beat": 15,
+        "status": "submitted",
+        "job_uuid": "0240e9bf-15f5-4cdf-a2e5-553649833931",
+        "duration_s": 6
+      },
+      {
+        "beat": 16,
+        "status": "submitted",
+        "job_uuid": "1fdd2ed6-4e74-4241-99c5-49dbc0407c74",
+        "duration_s": 6
+      },
+      {
+        "beat": 17,
+        "status": "submitted",
+        "job_uuid": "07322b0c-a578-4d5f-beb4-8a8435bbc985",
+        "duration_s": 6
+      },
+      {
+        "beat": 18,
+        "status": "submitted",
+        "job_uuid": "f14c30a1-3723-4f22-9271-0fefba743fff",
+        "duration_s": 6
+      },
+      {
+        "beat": 19,
+        "status": "submitted",
+        "job_uuid": "12c12820-a25e-41da-9706-f4f1258ac918",
+        "duration_s": 6
+      },
+      {
+        "beat": 20,
+        "status": "submitted",
+        "job_uuid": "88a7db34-f25d-413d-a766-2dee291f6525",
+        "duration_s": 6
+      },
+      {
+        "beat": 21,
+        "status": "submitted",
+        "job_uuid": "2c8e5a9d-8e8a-4bfc-9fa7-2371064e952b",
+        "duration_s": 6
+      },
+      {
+        "beat": 22,
+        "status": "submitted",
+        "job_uuid": "6a834aaf-582a-4a8e-aef8-b7d2855dec24",
+        "duration_s": 6
+      },
+      {
+        "beat": 23,
+        "status": "submitted",
+        "job_uuid": "4eaadacb-82b9-4372-b3f5-87af77fd5bbc",
+        "duration_s": 6
+      },
+      {
+        "beat": 24,
+        "status": "submitted",
+        "job_uuid": "b09e45b4-7d13-4e14-b4b9-7be3f82d0a00",
+        "duration_s": 6
+      }
+    ],
+    "media_id_by_beat_inferred_from_exclusive_submission_order": {
+      "24": 42406457,
+      "23": 42406393,
+      "22": 42406321,
+      "21": 42406253,
+      "20": 42406149,
+      "19": 42406117,
+      "18": 42406027,
+      "17": 42405957,
+      "16": 42405865,
+      "15": 42405810,
+      "14": 42405493,
+      "13": 42405410,
+      "12": 42405299,
+      "11": 42405222,
+      "10": 42405125,
+      "9": 42405047,
+      "8": 42404969,
+      "7": 42404927,
+      "6": 42404885,
+      "5": 42404829,
+      "4": 42404677,
+      "3": 42404599,
+      "2": 42404448,
+      "1": 42404108
+    }
   },
   "export": {
-    "quality": "high",
-    "size": 1080,
+    "queue_text": "Your movie creation is currently number 6 in the queue. This process will take place in the background.",
+    "queue_position": 6,
+    "name": "Lake Peigneur - The Lake That Vanished - Vox Documentary",
+    "quality": "High",
+    "resolution": "FullHD",
     "format": "mp4",
-    "canvas_ratio": 1.778,
-    "queue": "Your movie creation is currently number 1 in the queue. / This process will take place in the background."
-  }
+    "status": "complete",
+    "output_id": 685247,
+    "size_mb": 73.22,
+    "duration_s": 141.409002,
+    "width": 1920,
+    "height": 1080,
+    "video_url": "https://cdn-ny-b.videoexpress.ai/video/1790432946_6ab7d6b256dbb.mp4",
+    "download_url": "https://app.videoexpress.ai/download/output/685247"
+  },
+  "beats": {
+    "table": [
+      {
+        "beat": 1,
+        "time": "0:00-0:06",
+        "duration_s": 6,
+        "voiceover_cue": "On November 20, 1980, a drilling rig on Lake Peigneur in southern Louisiana",
+        "visual_story_point": "a shallow blue-gray lake shape on a Louisiana survey map with a tiny oil rig cutout at its center"
+      },
+      {
+        "beat": 2,
+        "time": "0:06-0:12",
+        "duration_s": 6,
+        "voiceover_cue": "began to tilt. Beneath the shallow water lay the Jefferson Island salt mine,",
+        "visual_story_point": "a paper cross-section revealing the Jefferson Island salt dome below the lake and the rig above it"
+      },
+      {
+        "beat": 3,
+        "time": "0:12-0:18",
+        "duration_s": 6,
+        "voiceover_cue": "a network of tunnels cut into an ancient salt dome. The rig crew",
+        "visual_story_point": "branching black mine tunnels cut through a textured salt dome beneath the blue-gray lake"
+      },
+      {
+        "beat": 4,
+        "time": "0:18-0:24",
+        "duration_s": 6,
+        "voiceover_cue": "moved away as the lake surface started to change. Underground, miners heard the",
+        "visual_story_point": "a tilting paper oil rig beside a changing lake surface, with tiny worker cutouts moving toward shore"
+      },
+      {
+        "beat": 5,
+        "time": "0:24-0:30",
+        "duration_s": 6,
+        "voiceover_cue": "warning and headed for the exits.\n\nWhat followed looked impossible. Water rushed into",
+        "visual_story_point": "miners in a dark paper tunnel turning toward an exit ladder while a blue-gray water edge appears behind them"
+      },
+      {
+        "beat": 6,
+        "time": "0:30-0:36",
+        "duration_s": 6,
+        "voiceover_cue": "the mine through an opening in the lakebed. As the underground space flooded,",
+        "visual_story_point": "a narrow tear in the lakebed feeding water into the mine chamber beneath"
+      },
+      {
+        "beat": 7,
+        "time": "0:36-0:42",
+        "duration_s": 6,
+        "voiceover_cue": "the surface above it collapsed. The opening widened into a whirlpool. The rig",
+        "visual_story_point": "the lake surface sagging over a collapsing mine chamber in a clean paper cross-section"
+      },
+      {
+        "beat": 8,
+        "time": "0:42-0:48",
+        "duration_s": 6,
+        "voiceover_cue": "disappeared. So did boats, trees, and sections of shoreline. A lake that had",
+        "visual_story_point": "an overhead paper lake with a single dark whirlpool at the center and the rig at its edge"
+      },
+      {
+        "beat": 9,
+        "time": "0:48-0:54",
+        "duration_s": 6,
+        "voiceover_cue": "taken ages to form was draining in a matter of hours.\n\nThe geometry",
+        "visual_story_point": "a shrinking lake outline beside a large archival clock face and a cut-paper rig disappearing below"
+      },
+      {
+        "beat": 10,
+        "time": "0:54-1:00",
+        "duration_s": 6,
+        "voiceover_cue": "explains the scale. A lake holds water across a broad surface. A mine",
+        "visual_story_point": "a wide lake-shaped blue-gray paper layer spanning a broad survey map"
+      },
+      {
+        "beat": 11,
+        "time": "1:00-1:06",
+        "duration_s": 6,
+        "voiceover_cue": "creates empty rooms beneath it. Connect the two, and gravity turns those rooms",
+        "visual_story_point": "a mine cross-section with large empty black chambers directly below the lake"
+      },
+      {
+        "beat": 12,
+        "time": "1:06-1:12",
+        "duration_s": 6,
+        "voiceover_cue": "into a drain. Fresh water also dissolves salt, making the ground around the",
+        "visual_story_point": "a vertical diagram connecting the lake to empty mine rooms with paper water ribbons flowing downward"
+      },
+      {
+        "beat": 13,
+        "time": "1:12-1:18",
+        "duration_s": 6,
+        "voiceover_cue": "opening less stable. The more the lake fell, the more the collapse could",
+        "visual_story_point": "a close paper cutaway of fresh water eroding the edge of a white-gray salt pillar"
+      },
+      {
+        "beat": 14,
+        "time": "1:18-1:24",
+        "duration_s": 6,
+        "voiceover_cue": "spread.\n\nYet the people escaped. Miners came up from below, and the rig",
+        "visual_story_point": "an expanding ring of fractured shoreline over the same mine and lake cross-section"
+      },
+      {
+        "beat": 15,
+        "time": "1:24-1:30",
+        "duration_s": 6,
+        "voiceover_cue": "crew reached safety. Contemporary reports recorded no injuries. For residents watching from the",
+        "visual_story_point": "miners climbing a paper mine exit shaft toward daylight while floodwater remains below"
+      },
+      {
+        "beat": 16,
+        "time": "1:30-1:36",
+        "duration_s": 6,
+        "voiceover_cue": "shore, the immediate danger was still growing: ground was giving way, and the",
+        "visual_story_point": "rig crew silhouettes gathered on firm shoreline overlooking the collapsing lake"
+      },
+      {
+        "beat": 17,
+        "time": "1:36-1:42",
+        "duration_s": 6,
+        "voiceover_cue": "lake was pulling in whatever floated nearby.\n\nThen the flow changed direction. Water",
+        "visual_story_point": "an archival incident ledger beside a shore map and small human silhouettes, with a clear stamped outcome"
+      },
+      {
+        "beat": 18,
+        "time": "1:42-1:48",
+        "duration_s": 6,
+        "voiceover_cue": "from the Delcambre Canal began running toward the emptied lake, helping refill the",
+        "visual_story_point": "a map of Lake Peigneur and the Delcambre Canal with one cut-paper flow arrow turning toward the lake"
+      },
+      {
+        "beat": 19,
+        "time": "1:48-1:54",
+        "duration_s": 6,
+        "voiceover_cue": "basin. The landscape that emerged was larger and deeper than before, and the",
+        "visual_story_point": "canal water flowing into the drained lake basin in a wide paper landscape"
+      },
+      {
+        "beat": 20,
+        "time": "1:54-2:00",
+        "duration_s": 6,
+        "voiceover_cue": "mine was lost. Geologists documented roughly sixty-eight acres of land swallowed along the",
+        "visual_story_point": "before-and-after lake outlines overlaid on a survey map, the new basin visibly broader and deeper"
+      },
+      {
+        "beat": 21,
+        "time": "2:00-2:06",
+        "duration_s": 6,
+        "voiceover_cue": "lake's edge.\n\nThe drilling operation and the collapse became the subject of",
+        "visual_story_point": "a torn shoreline survey showing the land swallowed at the lake edge"
+      },
+      {
+        "beat": 22,
+        "time": "2:06-2:12",
+        "duration_s": 6,
+        "voiceover_cue": "investigation and dispute. But the essential sequence was visible to everyone: a",
+        "visual_story_point": "a case file of drilling plans and lake cross-sections pinned above the same map"
+      },
+      {
+        "beat": 23,
+        "time": "2:12-2:18",
+        "duration_s": 6,
+        "voiceover_cue": "lake, a mine, a sudden opening, and an evacuation that saved every",
+        "visual_story_point": "four connected paper icons for lake, mine, opening and evacuation arranged as a causal chain"
+      },
+      {
+        "beat": 24,
+        "time": "2:18-2:24",
+        "duration_s": 6,
+        "voiceover_cue": "life. Lake Peigneur returned to the map. What remained beneath its surface?",
+        "visual_story_point": "the refilled Lake Peigneur on an archival map with a faint mine cross-section visible beneath the blue-gray surface"
+      }
+    ],
+    "prompt_book": {
+      "1": {
+        "title": "The Drill",
+        "header": "SHOT 01 / SUPPLIED REFERENCE PROMPT / The Drill",
+        "time": "0:00-0:06",
+        "duration_s": 6,
+        "voiceover_cue": "On November 20, 1980, a drilling rig on Lake Peigneur in southern Louisiana",
+        "visual_story_point": "a shallow blue-gray lake shape on a Louisiana survey map with a tiny oil rig cutout at its center",
+        "visual_keyframes": {
+          "opening": "the location pin clicks onto the lake",
+          "cut_1_state": "the location pin clicks onto the lake",
+          "cut_2_state": "the rig's boom tilts slightly",
+          "final_frame": "the lake outline holds beneath the leaning rig"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a shallow blue-gray lake shape on a Louisiana survey map with a tiny oil rig cutout at its center dominates the frame; supporting elements are a torn shoreline map and a narrow date strip, with generous negative space. A typewriter strip or stamp box carries exactly 'NOV 20 1980'. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the rig's location pin, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text beyond 'NOV 20 1980'. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the rig's location pin, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the location pin clicks onto the lake; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the rig's boom tilts slightly. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the lake outline holds beneath the leaning rig. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "2": {
+        "title": "Below the Surface",
+        "header": "SHOT 02 / CONTINUATION PROMPT / Below the Surface",
+        "time": "0:06-0:12",
+        "duration_s": 6,
+        "voiceover_cue": "began to tilt. Beneath the shallow water lay the Jefferson Island salt mine,",
+        "visual_story_point": "a paper cross-section revealing the Jefferson Island salt dome below the lake and the rig above it",
+        "visual_keyframes": {
+          "opening": "the lake layer lifts to reveal the mine",
+          "cut_1_state": "the lake layer lifts to reveal the mine",
+          "cut_2_state": "the pointer tracks downward through salt",
+          "final_frame": "the rig and mine align in one readable section"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a paper cross-section revealing the Jefferson Island salt dome below the lake and the rig above it dominates the frame; supporting elements are layered earth strata and a mine entrance, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the cross-section pointer, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the cross-section pointer, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the lake layer lifts to reveal the mine; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the pointer tracks downward through salt. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the rig and mine align in one readable section. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "3": {
+        "title": "The Tunnels",
+        "header": "SHOT 03 / CONTINUATION PROMPT / The Tunnels",
+        "time": "0:12-0:18",
+        "duration_s": 6,
+        "voiceover_cue": "a network of tunnels cut into an ancient salt dome. The rig crew",
+        "visual_story_point": "branching black mine tunnels cut through a textured salt dome beneath the blue-gray lake",
+        "visual_keyframes": {
+          "opening": "a tunnel branch extends across the salt",
+          "cut_1_state": "a tunnel branch extends across the salt",
+          "cut_2_state": "a second branch joins it",
+          "final_frame": "the full mine network sits directly under the lake"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: branching black mine tunnels cut through a textured salt dome beneath the blue-gray lake dominates the frame; supporting elements are small tunnel supports and the rig silhouette above, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the tunnel route marker, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the tunnel route marker, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: a tunnel branch extends across the salt; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, a second branch joins it. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the full mine network sits directly under the lake. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "4": {
+        "title": "First Movement",
+        "header": "SHOT 04 / CONTINUATION PROMPT / First Movement",
+        "time": "0:18-0:24",
+        "duration_s": 6,
+        "voiceover_cue": "moved away as the lake surface started to change. Underground, miners heard the",
+        "visual_story_point": "a tilting paper oil rig beside a changing lake surface, with tiny worker cutouts moving toward shore",
+        "visual_keyframes": {
+          "opening": "the rig begins to lean",
+          "cut_1_state": "the rig begins to lean",
+          "cut_2_state": "workers move away from its deck",
+          "final_frame": "the worker cutouts reach the shoreline"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a tilting paper oil rig beside a changing lake surface, with tiny worker cutouts moving toward shore dominates the frame; supporting elements are shoreline reeds and a mine stairwell below, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the danger pin at the rig, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the danger pin at the rig, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the rig begins to lean; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, workers move away from its deck. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the worker cutouts reach the shoreline. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "5": {
+        "title": "Warning Underground",
+        "header": "SHOT 05 / CONTINUATION PROMPT / Warning Underground",
+        "time": "0:24-0:30",
+        "duration_s": 6,
+        "voiceover_cue": "warning and headed for the exits.\n\nWhat followed looked impossible. Water rushed into",
+        "visual_story_point": "miners in a dark paper tunnel turning toward an exit ladder while a blue-gray water edge appears behind them",
+        "visual_keyframes": {
+          "opening": "the miners notice the approaching water",
+          "cut_1_state": "the miners notice the approaching water",
+          "cut_2_state": "the first miner takes the stairs",
+          "final_frame": "the group advances toward daylight"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: miners in a dark paper tunnel turning toward an exit ladder while a blue-gray water edge appears behind them dominates the frame; supporting elements are a warning lamp and cut-paper stairs, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the warning lamp's signal, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the warning lamp's signal, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the miners notice the approaching water; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the first miner takes the stairs. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the group advances toward daylight. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "6": {
+        "title": "A New Opening",
+        "header": "SHOT 06 / CONTINUATION PROMPT / A New Opening",
+        "time": "0:30-0:36",
+        "duration_s": 6,
+        "voiceover_cue": "the mine through an opening in the lakebed. As the underground space flooded,",
+        "visual_story_point": "a narrow tear in the lakebed feeding water into the mine chamber beneath",
+        "visual_keyframes": {
+          "opening": "a thin stream crosses the lakebed",
+          "cut_1_state": "a thin stream crosses the lakebed",
+          "cut_2_state": "the stream widens into the chamber",
+          "final_frame": "water occupies the lower room"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a narrow tear in the lakebed feeding water into the mine chamber beneath dominates the frame; supporting elements are layered water strips and tunnel beams, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the opening's rim, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the opening's rim, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: a thin stream crosses the lakebed; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the stream widens into the chamber. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, water occupies the lower room. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "7": {
+        "title": "The Surface Gives",
+        "header": "SHOT 07 / CONTINUATION PROMPT / The Surface Gives",
+        "time": "0:36-0:42",
+        "duration_s": 6,
+        "voiceover_cue": "the surface above it collapsed. The opening widened into a whirlpool. The rig",
+        "visual_story_point": "the lake surface sagging over a collapsing mine chamber in a clean paper cross-section",
+        "visual_keyframes": {
+          "opening": "one support gives way",
+          "cut_1_state": "one support gives way",
+          "cut_2_state": "the surface folds inward",
+          "final_frame": "a circular depression forms"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: the lake surface sagging over a collapsing mine chamber in a clean paper cross-section dominates the frame; supporting elements are cracked earth layers and an overhead rig cutout, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the fracture line, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the fracture line, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: one support gives way; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the surface folds inward. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, a circular depression forms. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "8": {
+        "title": "The Whirlpool",
+        "header": "SHOT 08 / CONTINUATION PROMPT / The Whirlpool",
+        "time": "0:42-0:48",
+        "duration_s": 6,
+        "voiceover_cue": "disappeared. So did boats, trees, and sections of shoreline. A lake that had",
+        "visual_story_point": "an overhead paper lake with a single dark whirlpool at the center and the rig at its edge",
+        "visual_keyframes": {
+          "opening": "water strips spiral inward",
+          "cut_1_state": "water strips spiral inward",
+          "cut_2_state": "the rig slides toward the dark center",
+          "final_frame": "boats and bank pieces move closer"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: an overhead paper lake with a single dark whirlpool at the center and the rig at its edge dominates the frame; supporting elements are two tiny boats and torn shore fragments, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the whirlpool center, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the whirlpool center, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: water strips spiral inward; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the rig slides toward the dark center. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, boats and bank pieces move closer. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "9": {
+        "title": "Gone in Hours",
+        "header": "SHOT 09 / CONTINUATION PROMPT / Gone in Hours",
+        "time": "0:48-0:54",
+        "duration_s": 6,
+        "voiceover_cue": "taken ages to form was draining in a matter of hours.\n\nThe geometry",
+        "visual_story_point": "a shrinking lake outline beside a large archival clock face and a cut-paper rig disappearing below",
+        "visual_keyframes": {
+          "opening": "the rig vanishes beneath the surface",
+          "cut_1_state": "the rig vanishes beneath the surface",
+          "cut_2_state": "the lake boundary pulls inward",
+          "final_frame": "the hour hand reaches its new mark"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a shrinking lake outline beside a large archival clock face and a cut-paper rig disappearing below dominates the frame; supporting elements are map contours and an hour hand, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the clock's single signal hand, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the clock's single signal hand, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the rig vanishes beneath the surface; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the lake boundary pulls inward. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the hour hand reaches its new mark. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "10": {
+        "title": "The Lake's Weight",
+        "header": "SHOT 10 / CONTINUATION PROMPT / The Lake's Weight",
+        "time": "0:54-1:00",
+        "duration_s": 6,
+        "voiceover_cue": "explains the scale. A lake holds water across a broad surface. A mine",
+        "visual_story_point": "a wide lake-shaped blue-gray paper layer spanning a broad survey map",
+        "visual_keyframes": {
+          "opening": "the broad water layer settles",
+          "cut_1_state": "the broad water layer settles",
+          "cut_2_state": "a side view reveals its depth",
+          "final_frame": "the full lake mass presses over the ground"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a wide lake-shaped blue-gray paper layer spanning a broad survey map dominates the frame; supporting elements are thin contour lines and a small scale rule, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the weight marker on the water, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the weight marker on the water, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the broad water layer settles; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, a side view reveals its depth. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the full lake mass presses over the ground. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "11": {
+        "title": "Empty Rooms",
+        "header": "SHOT 11 / CONTINUATION PROMPT / Empty Rooms",
+        "time": "1:00-1:06",
+        "duration_s": 6,
+        "voiceover_cue": "creates empty rooms beneath it. Connect the two, and gravity turns those rooms",
+        "visual_story_point": "a mine cross-section with large empty black chambers directly below the lake",
+        "visual_keyframes": {
+          "opening": "the first chamber opens in the section",
+          "cut_1_state": "the first chamber opens in the section",
+          "cut_2_state": "a second room is exposed",
+          "final_frame": "the connected voids remain visible"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a mine cross-section with large empty black chambers directly below the lake dominates the frame; supporting elements are salt pillars and a small tunnel map, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the chamber marker, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the chamber marker, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the first chamber opens in the section; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, a second room is exposed. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the connected voids remain visible. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "12": {
+        "title": "Gravity's Drain",
+        "header": "SHOT 12 / CONTINUATION PROMPT / Gravity's Drain",
+        "time": "1:06-1:12",
+        "duration_s": 6,
+        "voiceover_cue": "into a drain. Fresh water also dissolves salt, making the ground around the",
+        "visual_story_point": "a vertical diagram connecting the lake to empty mine rooms with paper water ribbons flowing downward",
+        "visual_keyframes": {
+          "opening": "the upper water ribbon enters the conduit",
+          "cut_1_state": "the upper water ribbon enters the conduit",
+          "cut_2_state": "the flow reaches the first room",
+          "final_frame": "the room fills from below"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a vertical diagram connecting the lake to empty mine rooms with paper water ribbons flowing downward dominates the frame; supporting elements are earth strata and a single narrow conduit, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the conduit marker, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the conduit marker, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the upper water ribbon enters the conduit; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the flow reaches the first room. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the room fills from below. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "13": {
+        "title": "Salt Gives Way",
+        "header": "SHOT 13 / CONTINUATION PROMPT / Salt Gives Way",
+        "time": "1:12-1:18",
+        "duration_s": 6,
+        "voiceover_cue": "opening less stable. The more the lake fell, the more the collapse could",
+        "visual_story_point": "a close paper cutaway of fresh water eroding the edge of a white-gray salt pillar",
+        "visual_keyframes": {
+          "opening": "water reaches the pillar",
+          "cut_1_state": "water reaches the pillar",
+          "cut_2_state": "salt grains loosen along its edge",
+          "final_frame": "the support grows visibly thinner"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a close paper cutaway of fresh water eroding the edge of a white-gray salt pillar dominates the frame; supporting elements are grainy salt texture and a flooded tunnel, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the erosion point, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the erosion point, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: water reaches the pillar; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, salt grains loosen along its edge. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the support grows visibly thinner. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "14": {
+        "title": "The Collapse Spreads",
+        "header": "SHOT 14 / CONTINUATION PROMPT / The Collapse Spreads",
+        "time": "1:18-1:24",
+        "duration_s": 6,
+        "voiceover_cue": "spread.\n\nYet the people escaped. Miners came up from below, and the rig",
+        "visual_story_point": "an expanding ring of fractured shoreline over the same mine and lake cross-section",
+        "visual_keyframes": {
+          "opening": "one crack opens",
+          "cut_1_state": "one crack opens",
+          "cut_2_state": "the crack reaches a second bank segment",
+          "final_frame": "the circular failure grows"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: an expanding ring of fractured shoreline over the same mine and lake cross-section dominates the frame; supporting elements are slumping soil layers and widening water inlet, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the fracture's leading edge, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the fracture's leading edge, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: one crack opens; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the crack reaches a second bank segment. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the circular failure grows. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "15": {
+        "title": "Up the Shaft",
+        "header": "SHOT 15 / CONTINUATION PROMPT / Up the Shaft",
+        "time": "1:24-1:30",
+        "duration_s": 6,
+        "voiceover_cue": "crew reached safety. Contemporary reports recorded no injuries. For residents watching from the",
+        "visual_story_point": "miners climbing a paper mine exit shaft toward daylight while floodwater remains below",
+        "visual_keyframes": {
+          "opening": "miners move up the lower rungs",
+          "cut_1_state": "miners move up the lower rungs",
+          "cut_2_state": "the lead miner reaches the opening",
+          "final_frame": "the group clears the shaft"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: miners climbing a paper mine exit shaft toward daylight while floodwater remains below dominates the frame; supporting elements are ladder rungs and tunnel supports, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the exit marker, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the exit marker, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: miners move up the lower rungs; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the lead miner reaches the opening. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the group clears the shaft. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "16": {
+        "title": "Safe on Shore",
+        "header": "SHOT 16 / CONTINUATION PROMPT / Safe on Shore",
+        "time": "1:30-1:36",
+        "duration_s": 6,
+        "voiceover_cue": "shore, the immediate danger was still growing: ground was giving way, and the",
+        "visual_story_point": "rig crew silhouettes gathered on firm shoreline overlooking the collapsing lake",
+        "visual_keyframes": {
+          "opening": "the crew steps onto dry bank",
+          "cut_1_state": "the crew steps onto dry bank",
+          "cut_2_state": "they turn toward the emptying lake",
+          "final_frame": "everyone remains together on shore"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: rig crew silhouettes gathered on firm shoreline overlooking the collapsing lake dominates the frame; supporting elements are a distant rig outline and warning tape, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the safe-ground pin, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the safe-ground pin, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the crew steps onto dry bank; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, they turn toward the emptying lake. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, everyone remains together on shore. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "17": {
+        "title": "No Injuries",
+        "header": "SHOT 17 / CONTINUATION PROMPT / No Injuries",
+        "time": "1:36-1:42",
+        "duration_s": 6,
+        "voiceover_cue": "lake was pulling in whatever floated nearby.\n\nThen the flow changed direction. Water",
+        "visual_story_point": "an archival incident ledger beside a shore map and small human silhouettes, with a clear stamped outcome",
+        "visual_keyframes": {
+          "opening": "the ledger opens",
+          "cut_1_state": "the ledger opens",
+          "cut_2_state": "the stamp lands on the paper",
+          "final_frame": "the ledger remains legible beside the survivors"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: an archival incident ledger beside a shore map and small human silhouettes, with a clear stamped outcome dominates the frame; supporting elements are a pencil and lake outline, with generous negative space. A typewriter strip or stamp box carries exactly 'NO INJURIES'. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the outcome stamp, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text beyond 'NO INJURIES'. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the outcome stamp, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the ledger opens; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the stamp lands on the paper. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the ledger remains legible beside the survivors. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "18": {
+        "title": "The Canal Reverses",
+        "header": "SHOT 18 / CONTINUATION PROMPT / The Canal Reverses",
+        "time": "1:42-1:48",
+        "duration_s": 6,
+        "voiceover_cue": "from the Delcambre Canal began running toward the emptied lake, helping refill the",
+        "visual_story_point": "a map of Lake Peigneur and the Delcambre Canal with one cut-paper flow arrow turning toward the lake",
+        "visual_keyframes": {
+          "opening": "the original arrow stops",
+          "cut_1_state": "the original arrow stops",
+          "cut_2_state": "the arrow pivots toward the lake",
+          "final_frame": "water ribbons follow the reversed path"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a map of Lake Peigneur and the Delcambre Canal with one cut-paper flow arrow turning toward the lake dominates the frame; supporting elements are canal banks and small barges, with generous negative space. A typewriter strip or stamp box carries exactly 'DELCAMBRE CANAL'. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the direction arrow, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text beyond 'DELCAMBRE CANAL'. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the direction arrow, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the original arrow stops; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the arrow pivots toward the lake. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, water ribbons follow the reversed path. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "19": {
+        "title": "Water Returns",
+        "header": "SHOT 19 / CONTINUATION PROMPT / Water Returns",
+        "time": "1:48-1:54",
+        "duration_s": 6,
+        "voiceover_cue": "basin. The landscape that emerged was larger and deeper than before, and the",
+        "visual_story_point": "canal water flowing into the drained lake basin in a wide paper landscape",
+        "visual_keyframes": {
+          "opening": "water enters the near edge",
+          "cut_1_state": "water enters the near edge",
+          "cut_2_state": "blue-gray layers spread across the basin",
+          "final_frame": "the lake fills toward its new boundary"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: canal water flowing into the drained lake basin in a wide paper landscape dominates the frame; supporting elements are an exposed lakebed and shoreline contour, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the inflow marker, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the inflow marker, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: water enters the near edge; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, blue-gray layers spread across the basin. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the lake fills toward its new boundary. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "20": {
+        "title": "A Changed Basin",
+        "header": "SHOT 20 / CONTINUATION PROMPT / A Changed Basin",
+        "time": "1:54-2:00",
+        "duration_s": 6,
+        "voiceover_cue": "mine was lost. Geologists documented roughly sixty-eight acres of land swallowed along the",
+        "visual_story_point": "before-and-after lake outlines overlaid on a survey map, the new basin visibly broader and deeper",
+        "visual_keyframes": {
+          "opening": "the old outline appears",
+          "cut_1_state": "the old outline appears",
+          "cut_2_state": "the new outline expands beyond it",
+          "final_frame": "the lost mine is covered by the new basin"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: before-and-after lake outlines overlaid on a survey map, the new basin visibly broader and deeper dominates the frame; supporting elements are a lost mine symbol and contour lines, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the changed-area marker, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the changed-area marker, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the old outline appears; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the new outline expands beyond it. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the lost mine is covered by the new basin. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "21": {
+        "title": "Land Lost",
+        "header": "SHOT 21 / CONTINUATION PROMPT / Land Lost",
+        "time": "2:00-2:06",
+        "duration_s": 6,
+        "voiceover_cue": "lake's edge.\n\nThe drilling operation and the collapse became the subject of",
+        "visual_story_point": "a torn shoreline survey showing the land swallowed at the lake edge",
+        "visual_keyframes": {
+          "opening": "the original shore line is traced",
+          "cut_1_state": "the original shore line is traced",
+          "cut_2_state": "paper bank pieces drop inward",
+          "final_frame": "the measured loss remains marked"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a torn shoreline survey showing the land swallowed at the lake edge dominates the frame; supporting elements are an archival acreage note and collapsed mine section, with generous negative space. A typewriter strip or stamp box carries exactly '68 ACRES'. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the lost-land marker, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text beyond '68 ACRES'. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the lost-land marker, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the original shore line is traced; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, paper bank pieces drop inward. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the measured loss remains marked. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "22": {
+        "title": "The Investigation",
+        "header": "SHOT 22 / CONTINUATION PROMPT / The Investigation",
+        "time": "2:06-2:12",
+        "duration_s": 6,
+        "voiceover_cue": "investigation and dispute. But the essential sequence was visible to everyone: a",
+        "visual_story_point": "a case file of drilling plans and lake cross-sections pinned above the same map",
+        "visual_keyframes": {
+          "opening": "one plan is unfolded",
+          "cut_1_state": "one plan is unfolded",
+          "cut_2_state": "a second report overlaps it",
+          "final_frame": "the still-open file fills the frame"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: a case file of drilling plans and lake cross-sections pinned above the same map dominates the frame; supporting elements are a ruler and a folded report, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the evidence pin, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the evidence pin, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: one plan is unfolded; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, a second report overlaps it. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the still-open file fills the frame. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "23": {
+        "title": "Four Pieces",
+        "header": "SHOT 23 / CONTINUATION PROMPT / Four Pieces",
+        "time": "2:12-2:18",
+        "duration_s": 6,
+        "voiceover_cue": "lake, a mine, a sudden opening, and an evacuation that saved every",
+        "visual_story_point": "four connected paper icons for lake, mine, opening and evacuation arranged as a causal chain",
+        "visual_keyframes": {
+          "opening": "the lake icon slides into place",
+          "cut_1_state": "the lake icon slides into place",
+          "cut_2_state": "the mine and opening connect",
+          "final_frame": "the evacuation icon completes the chain"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: four connected paper icons for lake, mine, opening and evacuation arranged as a causal chain dominates the frame; supporting elements are a survey grid and tiny worker silhouettes, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the causal thread, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the causal thread, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the lake icon slides into place; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the mine and opening connect. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the evacuation icon completes the chain. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      },
+      "24": {
+        "title": "What Lies Below",
+        "header": "SHOT 24 / CONTINUATION PROMPT / What Lies Below",
+        "time": "2:18-2:24",
+        "duration_s": 6,
+        "voiceover_cue": "life. Lake Peigneur returned to the map. What remained beneath its surface?",
+        "visual_story_point": "the refilled Lake Peigneur on an archival map with a faint mine cross-section visible beneath the blue-gray surface",
+        "visual_keyframes": {
+          "opening": "the lake surface settles",
+          "cut_1_state": "the lake surface settles",
+          "cut_2_state": "the hidden mine fades under the water layer",
+          "final_frame": "the map holds on the unanswered depth"
+        },
+        "text_to_image_prompt": "A premium investigative documentary collage in 16:9: the refilled Lake Peigneur on an archival map with a faint mine cross-section visible beneath the blue-gray surface dominates the frame; supporting elements are a small question-shaped cut-paper shadow and quiet shore, with generous negative space. No printed labels. Hand-cut archival maps and newsprint, torn paper edges, halftone cutouts with rough scissor cuts, masking tape, rubber stamps, visible print grain and paper fiber, matte flat documentary lighting and soft cutout shadows. Desaturated tan, ink black and halftone gray, blue-gray water; exactly one hot red signal accent at the final uncertainty pin, with restrained mustard yellow secondary. NOT digital illustration, NOT cartoon, NOT 3D render, NOT glossy, no gradients, no clutter, no watermark, no logos, no text. Premium Vox-style investigative documentary collage, 16:9, ultra-detailed, 8K.",
+        "image_to_video_prompt": "One 6-second 16:9 paper-collage clip. Continuity lock: use the supplied image's exact lake/map, cutout identities, printed labels, props, blue-gray water, single hot red accent at the final uncertainty pin, desaturated tan and ink-gray paper, matte light, visible fibers and soft shadows across all cuts. From 0-2 seconds, Shot 1 is a static wide overhead view: the lake surface settles; the composition settles. From 2-4 seconds, cut to Shot 2, a restrained close-up/detail view: continuing from that exact state, the hidden mine fades under the water layer. From 4-6 seconds, cut to Shot 3, a steady medium overhead view: continuing the same physical sequence, the map holds on the unanswered depth. Use rigid hand-cut paper physics, stepped easing and two-frame settles. Reframe for each camera setup while preserving labels, colors, carriers and spatial relationships from the supplied image; no repeated starts. Audio: silence, no generated speech. Final frame: hold the scene's completed arrangement steady as the next narration beat begins. VIDEOEXPRESS COPY FIELD / 6 SECONDS / MULTI-SHOT"
+      }
+    },
+    "prompt_gate": {
+      "status": "pass",
+      "shots": 24,
+      "checked_at": "2026-09-26",
+      "checks": [
+        "24 continuous 6s windows",
+        "verbatim narration coverage",
+        "scene/style/palette/closer",
+        "labels mirrored in closer",
+        "one red accent per image",
+        "3 timed connected camera shots per clip",
+        "Audio and Final frame",
+        "16:9 ratio"
+      ]
+    }
+  },
+  "current_step": 11,
+  "inputs": {
+    "genre": "disasters and survival",
+    "script_text": "On November 20, 1980, a drilling rig on Lake Peigneur in southern Louisiana began to tilt. Beneath the shallow water lay the Jefferson Island salt mine, a network of tunnels cut into an ancient salt dome. The rig crew moved away as the lake surface started to change. Underground, miners heard the warning and headed for the exits.\n\nWhat followed looked impossible. Water rushed into the mine through an opening in the lakebed. As the underground space flooded, the surface above it collapsed. The opening widened into a whirlpool. The rig disappeared. So did boats, trees, and sections of shoreline. A lake that had taken ages to form was draining in a matter of hours.\n\nThe geometry explains the scale. A lake holds water across a broad surface. A mine creates empty rooms beneath it. Connect the two, and gravity turns those rooms into a drain. Fresh water also dissolves salt, making the ground around the opening less stable. The more the lake fell, the more the collapse could spread.\n\nYet the people escaped. Miners came up from below, and the rig crew reached safety. Contemporary reports recorded no injuries. For residents watching from the shore, the immediate danger was still growing: ground was giving way, and the lake was pulling in whatever floated nearby.\n\nThen the flow changed direction. Water from the Delcambre Canal began running toward the emptied lake, helping refill the basin. The landscape that emerged was larger and deeper than before, and the mine was lost. Geologists documented roughly sixty-eight acres of land swallowed along the lake's edge.\n\nThe drilling operation and the collapse became the subject of investigation and dispute. But the essential sequence was visible to everyone: a lake, a mine, a sudden opening, and an evacuation that saved every life. Lake Peigneur returned to the map. What remained beneath its surface?\n",
+    "script_source": "generate",
+    "duration_min": 2,
+    "idea": "Lake Peigneur 1980",
+    "ratio": "Landscape"
+  },
+  "images": {
+    "per_beat": {
+      "1": {
+        "status": "ready",
+        "renderplatform_uuid": "ac9108ca-b4ea-4842-b6e7-fdf2e368cc82",
+        "preview_url": "https://user-assets.renderplatform.com/preview/ac9108ca-b4ea-4842-b6e7-fdf2e368cc82.jpg"
+      },
+      "2": {
+        "status": "ready",
+        "renderplatform_uuid": "289d147b-65c2-40a1-b98a-10ddaf60c9ed",
+        "preview_url": "https://user-assets.renderplatform.com/preview/289d147b-65c2-40a1-b98a-10ddaf60c9ed.jpg"
+      },
+      "3": {
+        "status": "ready",
+        "renderplatform_uuid": "6e72a13f-9631-40c7-b241-306e6c386144",
+        "preview_url": "https://user-assets.renderplatform.com/preview/6e72a13f-9631-40c7-b241-306e6c386144.jpg"
+      },
+      "4": {
+        "status": "ready",
+        "renderplatform_uuid": "4f4cf7ba-09a5-471e-8179-37d9acb05d39",
+        "preview_url": "https://user-assets.renderplatform.com/preview/4f4cf7ba-09a5-471e-8179-37d9acb05d39.jpg"
+      },
+      "5": {
+        "status": "ready",
+        "renderplatform_uuid": "dc7ce5b0-787a-4e8c-aff6-79c615a0f2b7",
+        "preview_url": "https://user-assets.renderplatform.com/preview/dc7ce5b0-787a-4e8c-aff6-79c615a0f2b7.jpg"
+      },
+      "6": {
+        "status": "ready",
+        "renderplatform_uuid": "6fae01ec-c037-4340-acb2-6497234b0935",
+        "preview_url": "https://user-assets.renderplatform.com/preview/6fae01ec-c037-4340-acb2-6497234b0935.jpg"
+      },
+      "7": {
+        "status": "ready",
+        "renderplatform_uuid": "ea9808be-76fe-4587-b126-916f36557300",
+        "preview_url": "https://user-assets.renderplatform.com/preview/ea9808be-76fe-4587-b126-916f36557300.jpg"
+      },
+      "8": {
+        "status": "ready",
+        "renderplatform_uuid": "69884437-7669-42f5-9570-fc00547540aa",
+        "preview_url": "https://user-assets.renderplatform.com/preview/69884437-7669-42f5-9570-fc00547540aa.jpg"
+      },
+      "9": {
+        "status": "ready",
+        "renderplatform_uuid": "4923eee0-5fe4-4e54-a731-70d02eead2f8",
+        "preview_url": "https://user-assets.renderplatform.com/preview/4923eee0-5fe4-4e54-a731-70d02eead2f8.jpg"
+      },
+      "10": {
+        "status": "ready",
+        "renderplatform_uuid": "dc064636-75e2-46a9-89d9-7fef8fa3e112",
+        "preview_url": "https://user-assets.renderplatform.com/preview/dc064636-75e2-46a9-89d9-7fef8fa3e112.jpg"
+      },
+      "11": {
+        "status": "ready",
+        "renderplatform_uuid": "5877de2b-7bcf-4e4d-969d-bf1eaced6a88",
+        "preview_url": "https://user-assets.renderplatform.com/preview/5877de2b-7bcf-4e4d-969d-bf1eaced6a88.jpg"
+      },
+      "12": {
+        "status": "ready",
+        "renderplatform_uuid": "985ae3f4-cdd8-4cd8-ba46-c430a3952db6",
+        "preview_url": "https://user-assets.renderplatform.com/preview/985ae3f4-cdd8-4cd8-ba46-c430a3952db6.jpg"
+      },
+      "13": {
+        "status": "ready",
+        "renderplatform_uuid": "4528e444-ac05-4733-b68d-eea2506595ee",
+        "preview_url": "https://user-assets.renderplatform.com/preview/4528e444-ac05-4733-b68d-eea2506595ee.jpg"
+      },
+      "14": {
+        "status": "ready",
+        "renderplatform_uuid": "a2288ee9-0b79-491f-91b8-5770a9755bc9",
+        "preview_url": "https://user-assets.renderplatform.com/preview/a2288ee9-0b79-491f-91b8-5770a9755bc9.jpg"
+      },
+      "15": {
+        "status": "ready",
+        "renderplatform_uuid": "b864d38e-a602-4082-9796-218e68a07f13",
+        "preview_url": "https://user-assets.renderplatform.com/preview/b864d38e-a602-4082-9796-218e68a07f13.jpg"
+      },
+      "16": {
+        "status": "ready",
+        "renderplatform_uuid": "8640c5f4-8f8d-4e97-9c96-2f1d6dedb73d",
+        "preview_url": "https://user-assets.renderplatform.com/preview/8640c5f4-8f8d-4e97-9c96-2f1d6dedb73d.jpg"
+      },
+      "17": {
+        "status": "ready",
+        "renderplatform_uuid": "7c23d5cb-be1b-45d0-b6ac-59b550e172ce",
+        "preview_url": "https://user-assets.renderplatform.com/preview/7c23d5cb-be1b-45d0-b6ac-59b550e172ce.jpg"
+      },
+      "18": {
+        "status": "ready",
+        "renderplatform_uuid": "d87ed73c-d523-48e5-a110-ea711accf5d9",
+        "preview_url": "https://user-assets.renderplatform.com/preview/d87ed73c-d523-48e5-a110-ea711accf5d9.jpg"
+      },
+      "19": {
+        "status": "ready",
+        "renderplatform_uuid": "e86c257d-0d7a-441a-9de9-16a8a08311e2",
+        "preview_url": "https://user-assets.renderplatform.com/preview/e86c257d-0d7a-441a-9de9-16a8a08311e2.jpg"
+      },
+      "20": {
+        "status": "ready",
+        "renderplatform_uuid": "4a44fe28-d663-473d-9d69-08ad6dabf915",
+        "preview_url": "https://user-assets.renderplatform.com/preview/4a44fe28-d663-473d-9d69-08ad6dabf915.jpg"
+      },
+      "21": {
+        "status": "ready",
+        "renderplatform_uuid": "c92327f5-9b2c-42b3-b081-4be39c92c0d5",
+        "preview_url": "https://user-assets.renderplatform.com/preview/c92327f5-9b2c-42b3-b081-4be39c92c0d5.jpg"
+      },
+      "22": {
+        "status": "ready",
+        "renderplatform_uuid": "04469e04-305d-4cb9-8632-ea3033b90649",
+        "preview_url": "https://user-assets.renderplatform.com/preview/04469e04-305d-4cb9-8632-ea3033b90649.jpg"
+      },
+      "23": {
+        "status": "ready",
+        "renderplatform_uuid": "6c57dcb6-d84a-4500-bf9b-387b187366a0",
+        "preview_url": "https://user-assets.renderplatform.com/preview/6c57dcb6-d84a-4500-bf9b-387b187366a0.jpg"
+      },
+      "24": {
+        "status": "ready",
+        "renderplatform_uuid": "8da61fdb-0b69-41e2-bc9f-25955ef5efc5",
+        "preview_url": "https://user-assets.renderplatform.com/preview/8da61fdb-0b69-41e2-bc9f-25955ef5efc5.jpg"
+      }
+    }
+  },
+  "next_safe_action": "None; documentary exported and verified.",
+  "duration_plan": {
+    "planned_total_s": 144,
+    "N_beats": 24,
+    "overshoot_s": 2.59,
+    "actual_words": 308,
+    "per_beat_clip_s": {
+      "1": 6,
+      "2": 6,
+      "3": 6,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 6,
+      "8": 6,
+      "9": 6,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 6,
+      "16": 6,
+      "17": 6,
+      "18": 6,
+      "19": 6,
+      "20": 6,
+      "21": 6,
+      "22": 6,
+      "23": 6,
+      "24": 6
+    },
+    "target_words": 300,
+    "narration_A_s": 141.41
+  },
+  "auth": {
+    "clonevoice": {
+      "evidence": "Audio - Clone Voice and My Audio list",
+      "authenticated": true,
+      "checked_at": "2026-09-26"
+    },
+    "videoexpress": {
+      "evidence": "Editor and Export Video button",
+      "authenticated": true,
+      "checked_at": "2026-09-26"
+    }
+  },
+  "sources": [
+    "https://archives.datapages.com/data/HGS/vol24/no06/02.htm",
+    "https://archives.datapages.com/data/gcags/data/034/034001/0293.htm",
+    "https://www.upi.com/Archives/1980/11/21/Drilling-rig-breaks-into-salt-mine-cavity-draining-lake/6665343630800/"
+  ],
+  "status": "complete"
 }
